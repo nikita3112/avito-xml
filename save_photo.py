@@ -16,7 +16,7 @@ def create_service():
 service = create_service()
 
 def find_photos(folder_name):
-    folder = service.files().list(q=f"'1z7gMFf6Jc-6IQvxUGrlLpg1X3JeZsjjG' in parents and name = '{folder_name}'").execute().get('files')
+    folder = service.files().list(q=f"'1oRIlW214GlnQSs7QFg_3K6ebYvCBcJkg' in parents and name = '{folder_name}'").execute().get('files')
     if folder:
         folder_id = folder[0].get('id')
         photo_arr = service.files().list(
@@ -34,7 +34,7 @@ def save_photos(photo_arr, folder_name):
             filename = f'src/{folder_name}/{i+1}.jpeg'
             if os.path.exists(filename):
                 print(f'Фото уже есть - {i}')
-                paths.append(f"http://89.108.81.100:5000/{filename}")
+                paths.append(f"http://tatis24.xyz/{filename}")
                 continue
             if not os.path.exists(f'src/{folder_name}'):
                 os.makedirs(f'src/{folder_name}')
@@ -44,7 +44,7 @@ def save_photos(photo_arr, folder_name):
             while done is False:
                 status, done = downloader.next_chunk()
                 print("Download %d%%." % int(status.progress() * 100))
-            paths.append(f"http://89.108.81.100:5000/{filename}")
+            paths.append(f"http://tatis24.xyz/{filename}")
         
         return paths
     return []
