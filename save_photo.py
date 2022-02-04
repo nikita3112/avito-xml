@@ -34,7 +34,7 @@ def save_photos(photo_arr, folder_name):
             filename = f'src/{folder_name}/{i+1}.jpeg'
             if os.path.exists(filename):
                 print(f'Фото уже есть - {i}')
-                paths.append(f"http://tatis24.xyz/{filename}")
+                paths.append(f"http://89.108.81.163:5000/{filename}")
                 continue
             if not os.path.exists(f'src/{folder_name}'):
                 os.makedirs(f'src/{folder_name}')
@@ -44,7 +44,7 @@ def save_photos(photo_arr, folder_name):
             while done is False:
                 status, done = downloader.next_chunk()
                 print("Download %d%%." % int(status.progress() * 100))
-            paths.append(f"http://tatis24.xyz/{filename}")
+            paths.append(f"http://89.108.81.163:5000/{filename}")
         
         return paths
     return []
