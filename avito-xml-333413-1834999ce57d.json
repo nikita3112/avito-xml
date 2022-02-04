@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "avito-xml-333413",
+  "private_key_id": "1834999ce57d8d2998a03772af87ec8e78ce105e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCr4AjXeVJhGDhT\nJ7JwTosUzUfbi0VoJeTViBHz1Mt3z0mge8r56oAIUBnl38fAeDy6uuUdhQM60Mvw\nJMA3B5SB3RDnux3TmxjDh9wo0e8gZBDQIBf5Gs2SvjKSUwGkivSJ6PWxS6m42uEm\nxy2Xw9X0T44v4VnO9eeCh5hsehqflMDbg2JEvEo8vmlEog4JMzi4GHTtcHBjRHmW\nKu9QyEoe7c27bLsvYJbLfGlxysOtf+aNhGgOApDsL9u08LJbhnmukajRawKDAEzb\nHFUw1Y76AVNlz1xKrgPtUgAqw28CqJVezZgtgKOTL/2D6m5McOrL4qj+ZJlIfAwQ\nAF3KmV6rAgMBAAECgf8yXiy+tbM8cw6qWucW1ddblLasQUsQKZtl7PpKt5GEyAg1\nUwazu/9OyWIxswQT7nZjIQkDmAfwh/z5BGfruH8J/tqWy3w6gT6v4dg5KUx1hQoa\nYyDP5QVZcG6kUXdQu2fuUDrntI0CuvV38tubrsKw/OIuPCRSqSzQfXzO/2jCyhuL\nJto80x8Wc7ay1mwxgJysT2HjBlErw4DYgCfsGbMKs/++n74ql0XbpwrfBE5iDUhG\niotuTSG3T92fj1bWz+goU4N41NzEeB2Ac2h3s2whwnC5wCZSduWo6fcuoynQOchj\n0/OqjGpwtm9gCmUI/YyDpwNIe+QOLa5iXp0Po9ECgYEA8cQ3zyLbPWtZKtmgo/rp\ntD5xoS82LwvDLaBqo4yt94jV6tFwT6ASaTKKQVm3LxgO4hW7yXhN1/VDQGcT7AEY\nQ242xND1ZmQZeUQLHOR7qhw4GXlzPvwolU8pnj6E+Y+5PY0Sd0vRio+nwDNXMBUO\nF8fgNYNbIYe4Oih5Wl9va1ECgYEAtf5zGONVQQs6mYSlT/yXVIx2foEfX5uf7rYq\nEq/d5Q3upo9vl6vWzhPlg7OUt/BtVm8J/kzKw3BnLAfKzXLDyzyqpTDoyQig5x/t\n2KkAu4ZMgOQ3TQ3RBENDQOGB5ceCadJRStBmC8YK7WskFrdLw5HmPnA3rrxM13oC\nwWlCszsCgYEAoB4gCCNBqC/MYkC3z2KCHUmt395wuD/GCBXSCndFUEdjxZzoERQm\nnV1Hi3hrhdkdIkbak9gFVh2taJ3b59Xhx+bahwcNP77T0ChsY7o+3K7LyLNSzEgc\naKaBHbiyQMYbHNStgizInkf+BaD7AXEwYDeUGlzgohhMvtfHZz8Ff8ECgYEAo1Gg\ngCkiDKjDAZljsJAATcNvYr8FJItHzrRytSpVeoQyMg5uGjH/Jhf801+IijicJgCn\neyn2m8R3EbA8cnoW8n+Ss4Nco2u22TJyAwhGvAIdDV2/sso/VA/4fnTgWQ/dHJG8\nmeLCcLZcgAqx7CC5QNvhPw79KTWZz5SSfHa1gJkCgYEA8Gm3hP+HQEkgY7YDHlT4\nVnB2enY9tnmYIRzV0J5PurphFk2iZXFD5GU1EX9OtiiBF4utCKkND1XABUaxWcZs\nL6N/xO2/V0JBxXk8ysG7tl4Am3Q02L50g0nuklPnQ8SF5xQB/gMf18dFziCIW6Uc\nAxzM/bSMM6IsetbiRykATAc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "avito-xml@avito-xml-333413.iam.gserviceaccount.com",
+  "client_id": "101740840663207332360",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/avito-xml%40avito-xml-333413.iam.gserviceaccount.com"
+}
