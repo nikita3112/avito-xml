@@ -30,12 +30,12 @@ def save_photos(photo_arr, folder_name):
     if photo_arr:
         paths = []
         for i in range(len(photo_arr)):
-            request = service.files().get_media(fileId=photo_arr[i].get('id'))
             filename = f'src/{folder_name}/{i+1}.jpeg'
             if os.path.exists(filename):
                 print(f'Фото уже есть - {i}')
                 paths.append(f"http://89.108.81.163:5000/{filename}")
                 continue
+            request = service.files().get_media(fileId=photo_arr[i].get('id'))
             if not os.path.exists(f'src/{folder_name}'):
                 os.makedirs(f'src/{folder_name}')
             fh = io.FileIO(filename, 'wb')
